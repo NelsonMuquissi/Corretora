@@ -29,8 +29,8 @@
 
 ***/
 
-a{
-	text-decoration: none !important;
+ul a{
+	text-decoration: none;
 }
 
 .banner-one{
