@@ -71,6 +71,26 @@
 								<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 									<ul class="navigation clearfix">
 										<li class="dropdown"><a href="index.html">Início</a></li>
+										<li class="dropdown"><a href="index.html#">Serviços</a>
+											<ul>
+												<li><a href="services.html">Legalização de Imóvel</a></li>
+												<li><a href="services.html">serviços</a></li>
+												<li><a href="service-detail.html">Detalhes de serviços</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="index.html#">Propriedades</a>
+											<ul>
+												<li><a href="property.html">propriedades</a></li>
+												<li><a href="property-detail.html">Detalhe de propriedades</a></li>
+											</ul>
+										</li>
+										<li class="dropdown"><a href="index.html#">Blog</a>
+											<ul>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="blog-classic.html">Blog Classic</a></li>
+											</ul>
+										</li>
+
 										<li class="dropdown"><a href="index.html#">Sobre</a>
 											<ul>
 												<li><a href="about.html">Sobre Nós</a></li>
@@ -83,27 +103,6 @@
 												</li>
 											</ul>
 										</li>
-										<li class="dropdown"><a href="index.html#">Serviços</a>
-											<ul>
-												<li><a href="services.html">serviços</a></li>
-												<li><a href="service-detail.html">Detalhes de serviços</a></li>
-											</ul>
-										</li>
-										<li class="dropdown"><a href="index.html#">Propriedades</a>
-											<ul>
-												<li><a href="property.html">propriedades</a></li>
-												<li><a href="property-detail.html">Detalhe de propriedades</a></li>
-											</ul>
-										</li>
-										<!--<li class="dropdown"><a href="index.html#">Blog</a>
-											<ul>
-												<li><a href="blog.html">Blog</a></li>
-												<li><a href="blog-classic.html">Blog Classic</a></li>
-												<li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-												<li><a href="blog-detail.html">Blog Detail</a></li>
-												<li><a href="not-found.html">Not Found</a></li>
-											</ul>
-										</li>-->
 										<li><a href="contact.html">Contacto</a></li>
 									</ul>
 								</div>
@@ -178,36 +177,36 @@
   <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/main-slider/1.jpg" class="d-block w-100" alt="Slide 1">
+      <img src="assets/images/background/1.jpg" class="d-block w-100" alt="Slide 1">
       <!-- Overlay escuro -->
       <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
       <!-- Conteúdo do slide -->
       <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100">
        <h1 class="text-white">ENCONTRE O IMÓVEL DOS SEUS SONHOS!</h1>
-    	<h4>Casas, apartamentos e terrenos ideais para você e sua família. </h4> 
-		<h4> Escolha o melhor para viver ou investir!</h4>
+    	<h4 class="text-white">Casas, apartamentos e terrenos ideais para você e sua família</h4> 
+		<h4 class="text-white">Escolha o melhor para viver ou investir!</h4>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/main-slider/1.jpg" class="d-block w-100" alt="Slide 3">
+      <img src="assets/images/background/3.jpg" class="d-block w-100" alt="Slide 3">
       <!-- Overlay escuro -->
       <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
       <!-- Conteúdo do slide -->
       <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100">
         <h1 class="text-white">VENDA SEU IMÓVEL COM SEGURANÇA!</h1>
-    	<h4>Anuncie com a gente e alcance os compradores certos. </h4> 
-		<h4>Valorizamos o seu patrimônio!</h4>
+    	<h4 class="text-white">Anuncie com a gente e alcance os compradores certos</h4> 
+		<h4 class="text-white">Valorizamos o seu patrimônio!</h4>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/main-slider/1.jpg" class="d-block w-100" alt="Slide 3">
+      <img src="assets/images/background/company.jpg" class="d-block w-100" alt="Slide 3">
       <!-- Overlay escuro -->
       <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
       <!-- Conteúdo do slide -->
       <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100">
         <h1 class="text-white">O ALUGUEL PERFEITO PARA VOCÊ!</h1>
-    	<h4>Encontre casas, apartamentos e espaços comerciais </h4>
-		<h4>sob medida para sua necessidade e estilo de vida.</h4>
+    	<h4 class="text-white">Encontre casas, apartamentos e espaços comerciais</h4>
+		<h4 class="text-white">sob medida para sua necessidade e estilo de vida.</h4>
       </div>
     </div>
   </div>
@@ -260,6 +259,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-6 form-group">
 														<label>Localização</label>
 														<select name="country" class="custom-select-box">
+															<option value=" "></option>
 															<option>Zango</option>
 															<option>Kilamba</option>
 															<option>Patriota</option>
@@ -270,6 +270,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-6 form-group">
 														<label>Dimensões</label>
 														<select name="country" class="custom-select-box">
+															<option value=" "></option>
 															<option>T3</option>
 															<option>T5</option>
 															<option>T4</option>
@@ -280,6 +281,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-12 form-group">
 														<label>Preços</label>
 														<select name="country" class="custom-select-box">
+															<option value=" "></option>
 															<option>7000kz - 9000kz</option>
 															<option>8000kz - 10000kz</option>
 															<option>9000kz - 11000kz</option>
@@ -308,6 +310,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-6 form-group">
 														<label>Localização</label>
 														<select name="country" class="custom-select-box">
+															<option value=""></option>
 															<option>Zango</option>
 															<option>Kilamba</option>
 															<option>Patriota</option>
@@ -318,6 +321,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-6 form-group">
 														<label>Dimensões</label>
 														<select name="country" class="custom-select-box">
+															<option value=""></option>
 															<option>T3</option>
 															<option>T5</option>
 															<option>T4</option>
@@ -328,6 +332,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-12 form-group">
 														<label>Preços</label>
 														<select name="country" class="custom-select-box">
+															<option value=""></option>
 															<option>7000kz - 9000kz</option>
 															<option>8000kz - 10000kz</option>
 															<option>9000kz - 11000kz</option>
@@ -356,6 +361,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-6 form-group">
 														<label>Localização</label>
 														<select name="country" class="custom-select-box">
+															<option value=""></option>
 															<option>Zango</option>
 															<option>Kilamba</option>
 															<option>Patriota</option>
@@ -366,6 +372,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-6 form-group">
 														<label>Dimensões</label>
 														<select name="country" class="custom-select-box">
+															<option value=""></option>
 															<option>T3</option>
 															<option>T5</option>
 															<option>T4</option>
@@ -376,6 +383,7 @@
 													<div class="col-lg-4 col-md-4 col-sm-12 form-group">
 														<label>Preços</label>
 														<select name="country" class="custom-select-box">
+															<option value=""></option>
 															<option>7000kz - 9000kz</option>
 															<option>8000kz - 10000kz</option>
 															<option>9000kz - 11000kz</option>
